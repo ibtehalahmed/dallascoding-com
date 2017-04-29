@@ -23,6 +23,10 @@
 
 		        echo "<h4>Thank you for sending email</h4>";
              }else {
+                echo $to
+                echo $subject
+                echo $message
+                echo "From:" . $Headers
                 echo "Error";
              }
 		    }
